@@ -7,17 +7,32 @@ One of the best CSS tutorials out there is from a local web development shop, [b
 
 The tutorial is made of short sections that focus on one, specific aspect of layout with CSS. This makes it not only a great tutorial for layout, but also a valuable reference for later. You'll probably come back to this document from time to time when you need help with your layout.
 
-Instructions
-------------
+## Prerequisites
 
-1. Read [Learn CSS Layout](http://learnlayout.com). This should take about 45 minutes to an hour.
-1. File an issue on this repository with a response to the following questions:
-    * What is the different options for `box-sizing`? Explain the differences between them.
-    * In your own words, explain the difference between relative and absolute positioning.
-    * What are three "gotchas" when working with CSS layouts? "Gotchas" are common mistakes that are easy to make, even if you know better.
+-   HTML and CSS
 
-[License](LICENSE)
-------------------
+## Objectives
+
+By the end of this, developers should be able to:
+
+-  Explain the difference between `display: block;` and `display: inline;`
+-  Explain the CSS box-model.
+-  Explain `clear` and `float`.
+
+## Instructions
+
+1.  Fork and clone this repository.
+1.  Change into the new directory.
+1.  Create and checkout a new branch, named `response`.
+1.  Follow the directions given in [`study.md`](study.md).
+1.  When finished, push to your fork and submit a pull request.
+
+You may wish to refer to [FAQs](https://github.com/ga-wdi-boston/meta/wiki/)
+related to [forking,
+cloning](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone), and [pull
+requests](https://github.com/ga-wdi-boston/meta/wiki/PullRequest).
+
+## [License](LICENSE)
 
 Source code distributed under the MIT license. Text and other assets copyright
 General Assembly, Inc., all rights reserved.
