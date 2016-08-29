@@ -39,5 +39,15 @@ What are three "gotchas" when working with CSS layouts? "Gotchas" are common
  mistakes that are easy to make, even if you know better.
 
 ```md
-<!-- your answer here -->
+1. Forgetting about browser compatibility. CSS features can be implemented differently 
+in different browsers, and something that looks great in one browser (e.g., the latest 
+version of Chrome) might look very different in IE9 (or even a slightly older version of 
+Firefox). This is particularly problematic with newer features.
+
+2. Forgetting to clear floats. This can push floated content beyond the borders of its 
+container (an image extending beyond the bottom of a section, for example) and make your 
+site look awkward. It can also totally screw up your layout.
+
+3. Forgetting which box model you're using. This can make your precisely calculated box 
+widths different than what you're expecting. 
 ```
