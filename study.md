@@ -12,20 +12,42 @@ Submit a pull request with responses to the following questions
 What is the different options for `box-sizing`? Explain the differences between
  them.
 
-```md
-<!-- your answer here -->
+```
+When you use border-box: box-sizing, the width of an element *includes* 
+the padding and border widths of that element. A box with a width of 100px, 
+a padding of 10px, and a border of 10px will have an inner content width of 
+60px and a total width of 100px.
+
+The default is border-box: content-box, whether the width of an element is 
+exclusive of the padding and border. A box with a width of 100px, a padding 
+of 10px, and a border of 10px will have an inner content width of 100px and 
+a total width of 140px.
 ```
 
 In your own words, explain the difference between relative and absolute
  positioning.
 
 ```md
-<!-- your answer here -->
+An element that is relatively positioned is positioned relative to its normal 
+place in the page layout. An element that is absolutely positioned is positioned
+relative to its nearest positioned ancestor (parent, grandparent, etc.). If all
+of its ancestors have the default position (static), then the element is positioned
+relative to the document body.
 ```
 
 What are three "gotchas" when working with CSS layouts? "Gotchas" are common
  mistakes that are easy to make, even if you know better.
 
 ```md
-<!-- your answer here -->
+1. Forgetting about browser compatibility. CSS features can be implemented differently 
+in different browsers, and something that looks great in one browser (e.g., the latest 
+version of Chrome) might look very different in IE9 (or even a slightly older version of 
+Firefox). This is particularly problematic with newer features.
+
+2. Forgetting to clear floats. This can push floated content beyond the borders of its 
+container (an image extending beyond the bottom of a section, for example) and make your 
+site look awkward. It can also totally screw up your layout.
+
+3. Forgetting which box model you're using. This can make your precisely calculated box 
+widths different than what you're expecting. 
 ```
