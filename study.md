@@ -28,7 +28,11 @@ In your own words, explain the difference between relative and absolute
  positioning.
 
 ```md
-<!-- your answer here -->
+An element that is relatively positioned is positioned relative to its normal 
+place in the page layout. An element that is absolutely positioned is positioned
+relative to its nearest positioned ancestor (parent, grandparent, etc.). If all
+of its ancestors have the default position (static), then the element is positioned
+relative to the document body.
 ```
 
 What are three "gotchas" when working with CSS layouts? "Gotchas" are common
