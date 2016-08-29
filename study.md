@@ -52,5 +52,9 @@ What are three "gotchas" when working with CSS layouts? "Gotchas" are common
  mistakes that are easy to make, even if you know better.
 
 ```md
-<!-- your answer here -->
+1) using images that are larger than the element that it lives in, and then
+floating it. Using clearfix on that element can help prevent it.
+2) making room (by using properties like margin) for other elements and ensuring
+elements don't overlap when resizing the browser
+3)not making the appropriate settings for inline-block layouts
 ```
