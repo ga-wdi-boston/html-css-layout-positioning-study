@@ -10,7 +10,7 @@ Read [Learn CSS Layout](http://learnlayout.com). This should take about 45
 Submit a pull request with responses to the following questions
 
 What is the different options for `box-sizing`? Explain the differences between
- them.
+ them. 
 
 ```md
 Box-sizing was created to remedy the problem of an element's border and padding stretching out the element beyond its specified width. When you add box-sizing: border-box to an elementh this will prevent that padding and border from increasing the element's overall size, giving it the same look and as an element that didn't have any padding or border. It's best practice to include the -webkit and -moz prefixes on this property since its so new.
