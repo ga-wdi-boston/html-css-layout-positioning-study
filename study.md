@@ -26,11 +26,12 @@ In your own words, explain the difference between relative and absolute
 ```md
   Relative positioning is the most common type of positioning we will use and
   has the most general application.  It makes elements move relative to their
-  neighboring elements.  Absolute position has a fewer number of use cases.
-  Two of the best uses would be a static header/nav bar that you want to stay in
-  place while you scroll down the page.  The second would be a button you want
-  to stay on the screen.  The example that first comes to mind is a 'back to top'
-  button.
+  neighboring elements.
+
+  Absolute positioning moves an element based on its nearest non-static positioned
+  ancestor then fixes it there.  It behaves like fixed positioning, except
+  instead of being fixed in position on the html page, it is fixed to the nearest
+  element.
 ```
 
 What are three "gotchas" when working with CSS layouts? "Gotchas" are common
