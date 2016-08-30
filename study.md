@@ -19,7 +19,8 @@ of a box. This avoids the need for manually keeping track of and subtracting out
 the padding and border from the max-width of a box.  Margin is not accounted for
 however.
 
-Content-box: This is the default, as CSS was before box-sizing came along. Width/height does not account for padding, border, or margin.
+Content-box: This is the default, as CSS was before box-sizing came along.
+Width/height does not account for padding, border, or margin.
 
 Padding-box: Deprecated, and only originally implemented in Firefox.  This
 included the padding with the content for height/width calculations but did not
