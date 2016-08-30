@@ -20,7 +20,7 @@ In your own words, explain the difference between relative and absolute
  positioning.
 
 ```md
-<!-- your answer here -->
+Items that are positioned with relative behave like static elements and content will not be adjusted to fill the gaps, elements that are positioned with absolute behave like fixed, they do not leave gaps where they would have been positioned and their position can be based on the location of another element. 
 ```
 
 What are three "gotchas" when working with CSS layouts? "Gotchas" are common
