@@ -13,19 +13,21 @@ What is the different options for `box-sizing`? Explain the differences between
  them.
 
 ```md
-<!-- your answer here -->
+<!-- "content-box" causes width and height to apply to the content only,
+"border-box" causes everthing from the border in to fall under width and height , and "padding-box" applies the same pattern to eveyrthing from the padding in to the content.-->
 ```
 
 In your own words, explain the difference between relative and absolute
  positioning.
 
 ```md
-<!-- your answer here -->
+<!-- Relative positioning mean relative to the inherited position, while
+will hold the inherited position.  -->
 ```
 
 What are three "gotchas" when working with CSS layouts? "Gotchas" are common
  mistakes that are easy to make, even if you know better.
 
 ```md
-<!-- your answer here -->
+<!-- setting the wrong type of positioning, an unexpected box-sizing, an unexpected block/inline display, or a missed "clear" -->
 ```
