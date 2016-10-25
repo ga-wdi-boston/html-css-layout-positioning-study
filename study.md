@@ -13,19 +13,32 @@ What is the different options for `box-sizing`? Explain the differences between
  them.
 
 ```md
-<!-- your answer here -->
+<!-- Some different options include:
+content-box: Width and height properties but only for the content
+border-box: width and height properties for padding and border
+initial: this sets the property to a default value
+inherit: this makes the property inherit from the parent element
+-->
 ```
 
 In your own words, explain the difference between relative and absolute
  positioning.
 
 ```md
-<!-- your answer here -->
+<!-- Relative: An element is positioned relative to its normal position.
+
+Absolute: TAn element is positioned relative to the nearest positioned ancestor.
+
+ -->
 ```
 
 What are three "gotchas" when working with CSS layouts? "Gotchas" are common
  mistakes that are easy to make, even if you know better.
 
 ```md
-<!-- your answer here -->
+<!-- 1. Using 'Id' tags when they're not needed
+    2. Not using a default reset
+    3. Not using specific enough names for different tags. 
+
+      -->
 ```
