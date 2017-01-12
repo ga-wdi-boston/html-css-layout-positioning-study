@@ -13,19 +13,21 @@ What is the different options for `box-sizing`? Explain the differences between
  them.
 
 ```md
-<!-- your answer here -->
+content-box: (default value) box size only measures the content and doesn't incluse padding margin or boarder.
+border-box: box size taking into account border and padding.
+padding-box: box size + padding olny.
 ```
 
 In your own words, explain the difference between relative and absolute
  positioning.
 
 ```md
-<!-- your answer here -->
+relative positioning allows for adjusting position relative to the object itself. Absolute positioning is fixed realtive to its closest positioned ancestor.
 ```
 
 What are three "gotchas" when working with CSS layouts? "Gotchas" are common
  mistakes that are easy to make, even if you know better.
 
 ```md
-<!-- your answer here -->
+Image floats overflowing out of their container (clearfix can solve this). Not taking into account different browsers and media displays.
 ```
