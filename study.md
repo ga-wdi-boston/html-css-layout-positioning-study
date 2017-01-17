@@ -13,19 +13,24 @@ What is the different options for `box-sizing`? Explain the differences between
  them.
 
 ```md
-<!-- your answer here -->
+box-sizing: border-box; keeps the padding and border from increasing
+the width of a box.
 ```
 
 In your own words, explain the difference between relative and absolute
  positioning.
 
 ```md
-<!-- your answer here -->
+Relative positioning is just a "normally" positioned element.
+Absolute position is when a position has a value, but needs to be a "child" of another position. It's context and position are defined by its parent.
 ```
 
 What are three "gotchas" when working with CSS layouts? "Gotchas" are common
  mistakes that are easy to make, even if you know better.
 
 ```md
-<!-- your answer here -->
+Some of the most common CSS errors that I know I will need to watch out for are:
+1. Making sure I always understand the proper context of position:absolute
+2. Properly clearing floats
+3. Making sure box-model sizes do not overflow
 ```
