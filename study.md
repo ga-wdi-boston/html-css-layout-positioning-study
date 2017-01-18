@@ -13,8 +13,13 @@ What is the different options for `box-sizing`? Explain the differences between
  them.
 
 ```md
-box-sizing: border-box; keeps the padding and border from increasing
-the width of a box.
+I had to use mdn for a better response to this question.
+
+content-box: width and height properties are measured including only the content, but not the padding, border or margin.
+
+border-box: The width and height properties include the content, the padding and border, but not the margin.
+
+
 ```
 
 In your own words, explain the difference between relative and absolute
