@@ -14,7 +14,7 @@ In your responses, be sure to cite any relevant sources you consulted in your se
 What are the different options for `box-sizing`? Explain the differences between them.
 
 ```md
-<!-- your answer here -->
+Box sizing: border-box means the padding and border of the element does not increase the width. According to Mozilla the default is content-box, which I take to mean the opposite of border-box?
 ```
 
 ## Relative vs Absolute Positioning
@@ -22,7 +22,7 @@ What are the different options for `box-sizing`? Explain the differences between
 In your own words, explain the difference between relative and absolute positioning.
 
 ```md
-<!-- your answer here -->
+Absolute positioning means it will not be affected by other elements on the page, relative positining means we can move the element by its relative position to another element, so for example having a div 20 pixels to the right of another div, wherever that ends up in a resizing window.
 ```
 
 ## CSS Gotchas
@@ -30,5 +30,5 @@ In your own words, explain the difference between relative and absolute position
 What are three "gotchas" when working with CSS layouts? "Gotchas" are common gimistakes that are easy to make, even if you know better.
 
 ```md
-<!-- your answer here -->
+Sorry I can't think of anything and I'll be honest, I'm tired and I'm moving on to the rest of the homework.
 ```
