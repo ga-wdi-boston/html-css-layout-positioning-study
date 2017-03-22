@@ -14,7 +14,8 @@ In your responses, be sure to cite any relevant sources you consulted in your se
 What are the different options for `box-sizing`? Explain the differences between them.
 
 ```md
-<!-- your answer here -->
+The different options to box-sizing are to look at or resize
+the elements' margin, border,padding, and contents.
 ```
 
 ## Relative vs Absolute Positioning
@@ -22,7 +23,9 @@ What are the different options for `box-sizing`? Explain the differences between
 In your own words, explain the difference between relative and absolute positioning.
 
 ```md
-<!-- your answer here -->
+Absolute positioning doesnt affect the flow of contents and is exactly positioned
+on where you want it to be. As for relative positioning, its position is proportional
+or relative to the its origin position, thus, meaning it depends on how you styled it.
 ```
 
 ## CSS Gotchas
@@ -30,5 +33,6 @@ In your own words, explain the difference between relative and absolute position
 What are three "gotchas" when working with CSS layouts? "Gotchas" are common gimistakes that are easy to make, even if you know better.
 
 ```md
-<!-- your answer here -->
+Using inline styles(overrrides everything), ids(overrides almost everything), and
+using color names instead of rgba.s
 ```
