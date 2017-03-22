@@ -2,8 +2,8 @@
 
 ## Reading
 
-Read [Learn CSS Layout](http://learnlayout.com). This should take about 45
- minutes to an hour.
+- Read [Learn CSS Layout](http://learnlayout.com).
+  - This should take about 45 to 60 minutes
 
 ## Questions
 
