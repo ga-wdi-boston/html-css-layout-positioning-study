@@ -14,7 +14,7 @@ In your responses, be sure to cite any relevant sources you consulted in your se
 What are the different options for `box-sizing`? Explain the differences between them.
 
 ```md
-<!-- your answer here -->
+The box model and box sizing are ways to set the dimensions of an element. The difference is that the box sizing method allows us to set the dimensions without having to subtract the border and margin.
 ```
 
 ## Relative vs Absolute Positioning
@@ -22,7 +22,7 @@ What are the different options for `box-sizing`? Explain the differences between
 In your own words, explain the difference between relative and absolute positioning.
 
 ```md
-<!-- your answer here -->
+In relative positioning you can move an element by setting top, bottom, left, and right properties to adjust it to a new postion and in absolute postioning the element is placed realative to its parent element.
 ```
 
 ## CSS Gotchas
@@ -30,5 +30,5 @@ In your own words, explain the difference between relative and absolute position
 What are three "gotchas" when working with CSS layouts? "Gotchas" are common gimistakes that are easy to make, even if you know better.
 
 ```md
-<!-- your answer here -->
+I'm not exactly sure about what you mean with this question.
 ```
