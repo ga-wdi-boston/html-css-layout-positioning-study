@@ -1,6 +1,12 @@
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
-# HTML & CSS: Layout Reading
+# HTML CSS Layout Study
+
+## Prerequisites
+
+-   HTML and CSS
+
+## Reading
 
 One of the best CSS tutorials out there is from a local web development shop,
 [bocoup](https://bocoup.com). Their [Learn CSS Layout](http://learnlayout.com)
@@ -11,10 +17,6 @@ The tutorial is made of short sections that focus on one, specific aspect of
 layout with CSS. This makes it not only a great tutorial for layout, but also a
 valuable reference for later. You'll probably come back to this document from
 time to time when you need help with your layout.
-
-## Prerequisites
-
--   HTML and CSS
 
 ## Objectives
 
