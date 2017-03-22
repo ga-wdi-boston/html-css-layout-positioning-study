@@ -14,7 +14,9 @@ In your responses, be sure to cite any relevant sources you consulted in your se
 What are the different options for `box-sizing`? Explain the differences between them.
 
 ```md
-<!-- your answer here -->
+content-box: The width and height of the box is determined by it's content but not it's border, padding or margin.
+
+border-box: The width and height of the box is determined by it's content, border and padding but not it's margin. This prevents the size of the box from spilling out past it's specified width/height when border and padding are applied.
 ```
 
 ## Relative vs Absolute Positioning
@@ -22,7 +24,7 @@ What are the different options for `box-sizing`? Explain the differences between
 In your own words, explain the difference between relative and absolute positioning.
 
 ```md
-<!-- your answer here -->
+Relative position behaves "normally" except that it can accept additional properties to change it's position (left, right, top, bottom). Absolutely positioned elements are anchored to the nearest positioned element.
 ```
 
 ## CSS Gotchas
@@ -30,5 +32,7 @@ In your own words, explain the difference between relative and absolute position
 What are three "gotchas" when working with CSS layouts? "Gotchas" are common gimistakes that are easy to make, even if you know better.
 
 ```md
-<!-- your answer here -->
+1. When using inline-block there will be a gap in content if there is whitespace in the HTML.
+2. When floating an element, it's containing element can collapse if it doesn't have enough content of it's own and it will need to be cleared.
+3. Adding padding and border to an element when using the default box-sizing value of content-box will increase the elements total size; this happens even if you set a specific value for it's width or height.
 ```
