@@ -14,7 +14,10 @@ In your responses, be sure to cite any relevant sources you consulted in your se
 What are the different options for `box-sizing`? Explain the differences between them.
 
 ```md
-<!-- your answer here -->
+content-box: (default) this option allows you to manually set the borders
+and padding of an element
+border-box: this makes it so an element's padding and border don't increase its width
+
 ```
 
 ## Relative vs Absolute Positioning
@@ -22,7 +25,10 @@ What are the different options for `box-sizing`? Explain the differences between
 In your own words, explain the difference between relative and absolute positioning.
 
 ```md
-<!-- your answer here -->
+Relative position allows you to position the element away from its normal
+position on the document, whereas it seems absoulute positioning fixes itself
+on declared ancestors/parents when assigned. If none are assigned, it is
+positioned in the doc body.
 ```
 
 ## CSS Gotchas
@@ -30,5 +36,9 @@ In your own words, explain the difference between relative and absolute position
 What are three "gotchas" when working with CSS layouts? "Gotchas" are common gimistakes that are easy to make, even if you know better.
 
 ```md
-<!-- your answer here -->
-```
+I would say it would be a common mistake is regarding the responsive design. I
+think it could be fairly easy to forget to think about a certain device that
+would be viewing your content. Another would be to not account for different
+browsers and neglect testing/adding -moz/-webkit to necessary classes. Finally
+it could be common for redundency, or DRY violations, wherein the developer
+does not reuse code whereever possible.```
