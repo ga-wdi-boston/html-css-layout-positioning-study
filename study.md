@@ -14,7 +14,9 @@ In your responses, be sure to cite any relevant sources you consulted in your se
 What are the different options for `box-sizing`? Explain the differences between them.
 
 ```md
-<!-- your answer here -->
+According to the Mozilla Development Network, the main options for the box-sizing property are: content-box, and border-box. The content-box value is the default CSS setting. This means that the height and width of the element only includes the content. This means that the padding, border, and margin can actually make the element appear wider that the width and height properties.
+
+Constrastingly, the border-box value makes the height and width properties include the padding and border along with the content.
 ```
 
 ## Relative vs Absolute Positioning
@@ -22,7 +24,9 @@ What are the different options for `box-sizing`? Explain the differences between
 In your own words, explain the difference between relative and absolute positioning.
 
 ```md
-<!-- your answer here -->
+Relative positioning means that the elements position can be altered away from its normal position by top, right, bottom, and left. It moves the object the specified amount away from its default CSS positioning.
+
+Constrastingly, absolute positions the element relative to its nearest anscestor (or if no anscestors, then the document body itself) rather than just its normal position.
 ```
 
 ## CSS Gotchas
@@ -30,5 +34,11 @@ In your own words, explain the difference between relative and absolute position
 What are three "gotchas" when working with CSS layouts? "Gotchas" are common gimistakes that are easy to make, even if you know better.
 
 ```md
-<!-- your answer here -->
+For this, I used this website:  (https://code.tutsplus.com/articles/are-you-making-these-10-css-mistakes--net-1692/)
+1) One of the 'gotcha' mistakes that you can make is not checking browser compatability. For example, certain CSS properties may not work in various browsers (or versions of browsers). This was even mentioned in this study's reading. For example, CSS columns apparently don't work through IE9 or Opera Mini. If this occurs, your layout will not appear the way you want.
+
+2) Another common mistake is not considering various screen sizes. When you set width or other similar sizing properties, this may cause issues with smaller screens that make the layout not look as good.
+
+3) Finally, you can run into mistakes with floating, clearing, and clearfix. For example, if you float an image that is larger than the element holding it then it will spill outside the container. You can fix this by using clearfix.
+
 ```
