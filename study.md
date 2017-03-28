@@ -14,7 +14,9 @@ In your responses, be sure to cite any relevant sources you consulted in your se
 What are the different options for `box-sizing`? Explain the differences between them.
 
 ```md
-<!-- your answer here -->
+content-box: default applied by css, calculates width and height based on content but not the margin, border or padding. If you add a margin border or padding, their sizes are added to the content-box size since they are outside of it.
+
+border-box: width and height INCLUDES the border, margin and padding. The total size of the box is comprehensive of these elements plus the content
 ```
 
 ## Relative vs Absolute Positioning
@@ -22,7 +24,9 @@ What are the different options for `box-sizing`? Explain the differences between
 In your own words, explain the difference between relative and absolute positioning.
 
 ```md
-<!-- your answer here -->
+An element with a fixed position is fixed relative to the browser. In other words, it doesn't move as the page moves.
+
+An element with relative position is similar to a non-positioned or static item. However, you can control where it appears relative to its normal position using top, right, bottom and left properties
 ```
 
 ## CSS Gotchas
