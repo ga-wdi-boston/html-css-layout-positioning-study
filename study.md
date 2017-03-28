@@ -14,7 +14,11 @@ In your responses, be sure to cite any relevant sources you consulted in your se
 What are the different options for `box-sizing`? Explain the differences between them.
 
 ```md
-<!-- your answer here -->
+there's the old way, where you had to do math to account for the margins and
+padding along with the width to make sure the total width was as intended, and
+then there's the new way where you don't have to do math to determine the total
+width. There's also max and min widths that are self explanatory, and a new
+thing called flexbox that's pretty darn spiffy.
 ```
 
 ## Relative vs Absolute Positioning
@@ -22,13 +26,20 @@ What are the different options for `box-sizing`? Explain the differences between
 In your own words, explain the difference between relative and absolute positioning.
 
 ```md
-<!-- your answer here -->
+Relative positioning is not too fancy, but allows you to place elements in a
+specific way relative to other elements on the page. Absolute elements are
+placed are stuck in position in relation to its nearest parent element, if it
+has one, and if it doesn't have one, then it is permanently positioned in the
+body.
 ```
 
 ## CSS Gotchas
 
-What are three "gotchas" when working with CSS layouts? "Gotchas" are common gimistakes that are easy to make, even if you know better.
+What are three "gotchas" when working with CSS layouts? "Gotchas" are common mistakes that are easy to make, even if you know better.
 
 ```md
-<!-- your answer here -->
+Not taking into account different feature support across multiple versions of a
+browser; not taking into account different screen sizes when setting element
+sizes; and allowing your image to overflow its container because you didn't
+implement the clearfix hack.
 ```
