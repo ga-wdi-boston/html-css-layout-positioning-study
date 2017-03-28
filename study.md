@@ -14,7 +14,13 @@ In your responses, be sure to cite any relevant sources you consulted in your se
 What are the different options for `box-sizing`? Explain the differences between them.
 
 ```md
-<!-- your answer here -->
+border-box = the padding and border of that element no longer increase its width
+content-box = width and height properties includes only the content.  Border,
+              padding, or margin are not included
+
+
+
+
 ```
 
 ## Relative vs Absolute Positioning
@@ -22,7 +28,11 @@ What are the different options for `box-sizing`? Explain the differences between
 In your own words, explain the difference between relative and absolute positioning.
 
 ```md
-<!-- your answer here -->
+relavtive = is a default value and unless you add extra properties to change it.
+            the top, right, bottom and left proerties are used.
+
+absolute = positon related to the its parent, its like a fix where it stays in the
+same space but its with its parent box.
 ```
 
 ## CSS Gotchas
@@ -30,5 +40,10 @@ In your own words, explain the difference between relative and absolute position
 What are three "gotchas" when working with CSS layouts? "Gotchas" are common gimistakes that are easy to make, even if you know better.
 
 ```md
-<!-- your answer here -->
+
+Had to look in google....still not sure if these are correct or not since
+i have not played in CSS much.
+1. vertical, centering is hard
+2. 100% for example 100% width wont fill the entire horizontal space sometimes
+3. z-index isn't a real CSS attribute - it not a functioning property
 ```
