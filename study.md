@@ -14,7 +14,8 @@ In your responses, be sure to cite any relevant sources you consulted in your se
 What are the different options for `box-sizing`? Explain the differences between them.
 
 ```md
-<!-- your answer here -->
+other source = https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+box-sizing: border-box will stop a box from stretching beyond the specified width.
 ```
 
 ## Relative vs Absolute Positioning
@@ -22,12 +23,16 @@ What are the different options for `box-sizing`? Explain the differences between
 In your own words, explain the difference between relative and absolute positioning.
 
 ```md
-<!-- your answer here -->
+a relative positioned element is treated as if it were not positioned.
+absolute positioning means al=n element is fixed at a certain point on a page.
 ```
 
 ## CSS Gotchas
 
 What are three "gotchas" when working with CSS layouts? "Gotchas" are common gimistakes that are easy to make, even if you know better.
+1. positioning (especially absolute)
+2. floats
+3. the math associated with margins
 
 ```md
 <!-- your answer here -->
