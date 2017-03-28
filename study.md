@@ -14,7 +14,14 @@ In your responses, be sure to cite any relevant sources you consulted in your se
 What are the different options for `box-sizing`? Explain the differences between them.
 
 ```md
-<!-- your answer here -->
+Not sure the context of the question.  answer could be:
+1. box-sizing: content-box which references the box of the content only, not the padding, border or margin
+2. box-sizing: border-box which includes the content, padding and border, but not the margin
+
+or you could be asking for the prefixes needed to support different browsers
+-webkit-box-sizing: border-box = for safari, chrome
+   -moz-box-sizing: border-box = firefox
+        box-sizing: border-box = eventually will be supported by all browsers
 ```
 
 ## Relative vs Absolute Positioning
@@ -22,7 +29,10 @@ What are the different options for `box-sizing`? Explain the differences between
 In your own words, explain the difference between relative and absolute positioning.
 
 ```md
-<!-- your answer here -->
+position defauls to static or not positioned
+relative will change the position away from normal with other coordinates such as top right bottom left
+absolute  will change position relative to the nearest positioned
+A positioned element is anything but static.
 ```
 
 ## CSS Gotchas
@@ -30,5 +40,9 @@ In your own words, explain the difference between relative and absolute position
 What are three "gotchas" when working with CSS layouts? "Gotchas" are common gimistakes that are easy to make, even if you know better.
 
 ```md
-<!-- your answer here -->
+Not exactly sure about the question.  Some mistakes could be:
+1. Not coding for the size of the browser.   Media queries help correct that.
+2. when using float ant the image is taller than the text.   Clearfix corrects this.
+3. Making sure that our code is supported by all browsers.  Sometimes need the '-webkit-' (for safari or chrome) or '-moz-'(for firefox) prefixes to call on supported styles.
+
 ```
