@@ -14,7 +14,11 @@ In your responses, be sure to cite any relevant sources you consulted in your se
 What are the different options for `box-sizing`? Explain the differences between them.
 
 ```md
-<!-- your answer here -->
+'Box-sizing' options in CSS relate to what is included when the width and heigh properties are set:
+  border-box: includes content/padding/border, does not include margin
+  content-box: includes content, does not include padding/border/margin
+  padding-box: includes content/padding, does not include border/margin
+  Source: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
 ```
 
 ## Relative vs Absolute Positioning
@@ -22,7 +26,12 @@ What are the different options for `box-sizing`? Explain the differences between
 In your own words, explain the difference between relative and absolute positioning.
 
 ```md
-<!-- your answer here -->
+Absolute positioning sets an element in a specific place on a page, this allows us to set the element exactly where we want it and it will not adjust when the browser window is re-sized
+
+Relative positioning allows an element to shift based on its position relative to other factors such as attributes or the re-sizing of the browser window
+
+Source: http://learnlayout.com/position.html
+https://codemyviews.com/blog/the-lowdown-on-absolute-vs-relative-positioning
 ```
 
 ## CSS Gotchas
@@ -30,5 +39,9 @@ In your own words, explain the difference between relative and absolute position
 What are three "gotchas" when working with CSS layouts? "Gotchas" are common gimistakes that are easy to make, even if you know better.
 
 ```md
-<!-- your answer here -->
+1. Forgetting closing tags
+2. Not using shorthand code
+3. Using 'class' and 'id' incorrectly
+Source: https://forums.digitalpoint.com/threads/the-most-common-html-and-css-mistakes-to-avoid.2771855/
+http://www.webhostingsearch.com/articles/the-7-most-common-css-mistakes.php
 ```
