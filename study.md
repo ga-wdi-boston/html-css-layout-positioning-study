@@ -14,7 +14,8 @@ In your responses, be sure to cite any relevant sources you consulted in your se
 What are the different options for `box-sizing`? Explain the differences between them.
 
 ```md
-<!-- your answer here -->
+So according to MDN, there's content boxing and border boxing. Content boxing is the width and height of your content without padding, borders, and margins.
+Border boxing is the width and height of the element's content, padding, and border combined. 
 ```
 
 ## Relative vs Absolute Positioning
@@ -22,7 +23,8 @@ What are the different options for `box-sizing`? Explain the differences between
 In your own words, explain the difference between relative and absolute positioning.
 
 ```md
-<!-- your answer here -->
+Relative positioning moves the element on a webpage depending on the specific direction you tell it to by using properties.
+Absolute positioning fixes and element to a spot of your choosing in relation to where you to where its parent element is.
 ```
 
 ## CSS Gotchas
@@ -30,5 +32,7 @@ In your own words, explain the difference between relative and absolute position
 What are three "gotchas" when working with CSS layouts? "Gotchas" are common gimistakes that are easy to make, even if you know better.
 
 ```md
-<!-- your answer here -->
+1. Recognizing that different browsers may require different keywords to do the same things (-webkit- and -moz- for example.)
+2. With percent-width layouts, make sure that the percentages add up to 100% or else there will be gaps in the layout.
+3. If you float an element to one direction, make sure that if you need to clearfix, indicate that same direction.
 ```
