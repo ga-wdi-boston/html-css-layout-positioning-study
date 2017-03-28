@@ -14,21 +14,22 @@ In your responses, be sure to cite any relevant sources you consulted in your se
 What are the different options for `box-sizing`? Explain the differences between them.
 
 ```md
-<!-- your answer here -->
-```
+With box-sizing the border-box - the padding and border of that element no long increases its width. -webkit and -moz prefexes are examples of options used.```
 
 ## Relative vs Absolute Positioning
 
 In your own words, explain the difference between relative and absolute positioning.
 
 ```md
-<!-- your answer here -->
-```
+With position, static is the default where it is "not positioned" in any special way. Relative position behaves the same as static.
+
+Absolute position acts like fixed positioning where it is set to stay in the same place enven if the page is scrolled. However, abosolute is capable of moing along with the page scroll. ```
 
 ## CSS Gotchas
 
 What are three "gotchas" when working with CSS layouts? "Gotchas" are common gimistakes that are easy to make, even if you know better.
 
 ```md
-<!-- your answer here -->
-```
+1) some browsers behave differently, and need to be tested. som solutions will not work on all browsers;
+2) absolute positioning can be tricky;
+3) somtimes whitespaces will create gaps between columns.```
