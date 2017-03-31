@@ -14,7 +14,9 @@ In your responses, be sure to cite any relevant sources you consulted in your se
 What are the different options for `box-sizing`? Explain the differences between them.
 
 ```md
-<!-- your answer here -->
+Content Boxing, the width and height properties are only measured by the contents.
+Border-Boxing, the width and height properties are measured by the contents, paddings, and borders.
+Padding-boxing, the width and height properties are measured by the contents and paddings.
 ```
 
 ## Relative vs Absolute Positioning
@@ -22,7 +24,8 @@ What are the different options for `box-sizing`? Explain the differences between
 In your own words, explain the difference between relative and absolute positioning.
 
 ```md
-<!-- your answer here -->
+Absolute positioning will make position of the element you're styling in that exact location/position.
+Relative positioning will be relative/proportional to the location that you defined it on and how you styled it to be.
 ```
 
 ## CSS Gotchas
@@ -30,5 +33,5 @@ In your own words, explain the difference between relative and absolute position
 What are three "gotchas" when working with CSS layouts? "Gotchas" are common gimistakes that are easy to make, even if you know better.
 
 ```md
-<!-- your answer here -->
+Overusage of IDs, Usage of Inline styles, making long named selectors.
 ```
