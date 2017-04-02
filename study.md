@@ -15,7 +15,7 @@ What are the different options for `box-sizing`? Explain the differences between
 
 ```md
 <!-- your answer here -->
-```
+```By using the box-sizing:border-box property the padding and border will not increase the width of the element. Though less-inutive, you can also subtract the padding and border amounts when setting the width value.
 
 ## Relative vs Absolute Positioning
 
@@ -23,7 +23,7 @@ In your own words, explain the difference between relative and absolute position
 
 ```md
 <!-- your answer here -->
-```
+``` Assigning the direction settings of a relatively postion element will change its normal position, but the other content will not be adjusted to the new, relative postion. Values assinged to an absolute element only apply in relation to its closest parent element. If there is no parent element, an element with an absolute postion will still move as the page scrolls.
 
 ## CSS Gotchas
 
@@ -32,3 +32,6 @@ What are three "gotchas" when working with CSS layouts? "Gotchas" are common gim
 ```md
 <!-- your answer here -->
 ```
+1. Using too many (or any) Ids instead of class names
+2. Neglecting style that will optimize the mobile UX
+3. Make sure the CSS class names are an exact match of the html class names
