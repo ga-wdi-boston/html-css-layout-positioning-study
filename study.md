@@ -14,7 +14,8 @@ In your responses, be sure to cite any relevant sources you consulted in your se
 What are the different options for `box-sizing`? Explain the differences between them.
 
 ```md
-<!-- your answer here -->
+content-box is the default value and deals only with the content in the container, border-box includes the content and padding .
+There is also the padding-box property value but its use has been discontinued in modern browsers
 ```
 
 ## Relative vs Absolute Positioning
@@ -22,7 +23,8 @@ What are the different options for `box-sizing`? Explain the differences between
 In your own words, explain the difference between relative and absolute positioning.
 
 ```md
-<!-- your answer here -->
+Relative position allows you to push or pull an element on the page without effecting the rest of the elelmens on the page, whle the absolute position can result in overlapping elements, it basically allows you to put a element anywhere you want it on the page.
+http://cssreset.com/understanding-css-relative-and-absolute-positioning-explained/
 ```
 
 ## CSS Gotchas
@@ -30,5 +32,8 @@ In your own words, explain the difference between relative and absolute position
 What are three "gotchas" when working with CSS layouts? "Gotchas" are common gimistakes that are easy to make, even if you know better.
 
 ```md
-<!-- your answer here -->
+1- Not using shorthand properties creting clunky and redundent code if you can write something on one line, why waste the time and write four lines of code.
+2- Using color names, this allows the browser to decide for you and not all browser have the same idea when you type blue it puts in its choice of blue.  The dev should use hexdecimal color codes as they are specific and used by all browsers.
+3- Writing redundent code lie using the same properties on multiple elements when in reality you only had to add the selector to the first one you wrote and combine it with a comma.
+http://sixrevisions.com/css/12-common-css-mistakes-web-developers-make/
 ```
