@@ -11,10 +11,17 @@ In your responses, be sure to cite any relevant sources you consulted in your se
 
 ## CSS box-sizing
 
-What are the different options for `box-sizing`? Explain the differences between them.
+What are the different options for `box-sizing`? Explain the differences between
+them.
 
 ```md
-<!-- your answer here -->
+content-box: This is the default value. Padding, border, and margin will not be
+added onto the set height and width, and will instead be set outside the box.
+border-box: Padding and border will be added onto the set height
+and width.
+initial: Reverts to default, content-box value.
+inherit: Inherit box-sizing of parent element.
+Resource: https://www.w3schools.com/cssref/css3_pr_box-sizing.asp
 ```
 
 ## Relative vs Absolute Positioning
@@ -22,13 +29,19 @@ What are the different options for `box-sizing`? Explain the differences between
 In your own words, explain the difference between relative and absolute positioning.
 
 ```md
-<!-- your answer here -->
+Relative positioning: Element will be positioned relative to its normal position. Element will not be removed from the normal flow of the page, and will retain its original space. Element can be offset by top and left values.
+Absolute positioning: Element is removed out of the page flow, so element's original space will be occupied by other elements. Element will be positioned relative to nearest positioned ancestor element, but if there are no positioned ancestors, element will be positioned relative to the document body. Element can be offset by top and left values.
+Resource: http://learnlayout.com/position.html
 ```
 
 ## CSS Gotchas
 
-What are three "gotchas" when working with CSS layouts? "Gotchas" are common gimistakes that are easy to make, even if you know better.
+What are three "gotchas" when working with CSS layouts? "Gotchas" are common mistakes that are easy to make, even if you know better.
 
 ```md
-<!-- your answer here -->
+Clearing floats: If an element is floated to either left or right, the surrounding elements will wrap the floated elements. To avoid that, you must set the clear value left, right, or both (depending on the situation) to make the 2nd element appear after the floated element.
+
+Clearfix: If you have floated elements inside a parent box, then the parent box may not extend down to cover the entire content inside. In such a case, you must use one of the three methods of clearfix. My favorite clearfix method is the
+
+Absolute positioning: When absolutely positioning an element relative to any parent/anecestor element, you must be sure to position the parent/ancestor element (anything other than static). Otherwise, the absolutely positioned element will be positioned relative to the document body. 
 ```
