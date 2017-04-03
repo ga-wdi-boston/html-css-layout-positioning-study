@@ -21,7 +21,7 @@ the three options that are modifiable for box-sizing are:
 -the border around the padding
 
 The above mentioned are the different levels of an element. If we imagine an element as a box the content would be the innermost level, followed by the next level(padding) and then border
-
+I used learnlayout.com
 ```
 
 ## Relative vs Absolute Positioning
@@ -32,6 +32,7 @@ In your own words, explain the difference between relative and absolute position
 Relative positioning works in the same way as static(not positioned in a specific way) until you give it some CSS position properties such as left, top, bottom etc.
 
 Absolute positioning will stay positioned relative to the document body, but if there is a parent element that is relative to it, it will orient itself based on the parent
+I used learnlayout.com
 ```
 
 ## CSS Gotchas
