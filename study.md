@@ -14,15 +14,20 @@ In your responses, be sure to cite any relevant sources you consulted in your se
 What are the different options for `box-sizing`? Explain the differences between them.
 
 ```md
-<!-- your answer here -->
+border-box: this means that the padding and border of an element no longer
+increase its width.  Otherwise, you will need to tack padding and border on
+when calculating the actual size the box will take up on the page.
+
 ```
 
 ## Relative vs Absolute Positioning
 
-In your own words, explain the difference between relative and absolute positioning.
 
 ```md
-<!-- your answer here -->
+Each object on the page has a "normal" position where we would expect it to appear absent
+any other instructions.  Relative positioning moves the actual location up/down/right/left relative
+to what would otherwise be its "normal" position.  Absolute positioning means that the
+object is positioned at a fixed point relative to its nearest positioned ancestor.
 ```
 
 ## CSS Gotchas
@@ -30,5 +35,7 @@ In your own words, explain the difference between relative and absolute position
 What are three "gotchas" when working with CSS layouts? "Gotchas" are common gimistakes that are easy to make, even if you know better.
 
 ```md
-<!-- your answer here -->
+1. Not accounting for different browsers.
+2. Confusing display types (block vs. in line)
+3. 3. Not using a clear fix with float so that elements overlap or look weird.
 ```
