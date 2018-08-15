@@ -14,7 +14,8 @@ In your responses, be sure to cite any relevant sources you consulted in your se
 What are the different options for `box-sizing`? Explain the differences between them.
 
 ```md
-<!-- your answer here -->
+content-box, border-box, intial, inherit
+
 ```
 
 ## Relative vs Absolute Positioning
@@ -22,7 +23,10 @@ What are the different options for `box-sizing`? Explain the differences between
 In your own words, explain the difference between relative and absolute positioning.
 
 ```md
-<!-- your answer here -->
+Relative positioning means that the element is positioned in a way that corresponds with its normal position.
+
+Absolute positioning means that the element is positioned relative to the nearest positioned element. If there are not surrounding elements, it'll be positioned in relavance to the document body.
+
 ```
 
 ## CSS Gotchas
@@ -30,5 +34,10 @@ In your own words, explain the difference between relative and absolute position
 What are three "gotchas" when working with CSS layouts? "Gotchas" are common gimistakes that are easy to make, even if you know better.
 
 ```md
-<!-- your answer here -->
+1. If you have 3 related divs and two of them float left and one floats right, the fload of the third div will be ignored.
+
+2. setting the width of an element to 100% will not work if the parents width is not 100%.
+
+3. z-index is not a functioning css property. LOL !
+
 ```
